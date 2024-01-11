@@ -23,3 +23,8 @@ Open your browser and use the following URL scheme:
 - http://[canisterId].localhost:4943
 - http://127.0.0.1:4943/?canisterId=[canisterId]
 
+Check the sayHelloTo function with the CLI cammand below:
+```bash
+dfx canister call backend sayHelloTo '("Roland")'
+```
+
