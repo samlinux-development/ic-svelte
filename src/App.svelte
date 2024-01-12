@@ -6,6 +6,7 @@
 </script>
 
 <main>
+  <About />
   <div>
     <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
       <img src={viteLogo} class="logo" alt="Vite Logo" />
@@ -27,7 +28,7 @@
   <p class="read-the-docs">
     Click on the Vite and Svelte logos to learn more
   </p>
-  <About />
+
 </main>
 
 <style>

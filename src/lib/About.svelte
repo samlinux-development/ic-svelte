@@ -1,12 +1,11 @@
 <script lang="ts">
-  const about = "This is a starter dApp built with Svelte and the Internet Computer.";
+  const about = "This is a starter dApp built with Svelte, Vite and the Internet Computer.";
  
   import { createActor } from '../declarations/backend';
  
-   let input = '', disabled = false, greeting = '';
+   let input = '', greeting = '';
  
    const handleOnSubmit = async () => {
-     disabled = true;
      try {
        // Canister IDs are automatically expanded to .env config - see vite.config.ts
        const canisterId = process.env.CANISTER_ID_BACKEND;
@@ -22,7 +21,6 @@
      } catch (err: unknown) {
        console.error(err);
      }
-     disabled = false;
    };
  
  </script>
@@ -30,17 +28,25 @@
  <div>
    <h1>{about}</h1>
  
-   <form on:submit|preventDefault={handleOnSubmit}>
-     <label for="name">Say hello to </label>
-     <input id="name" alt="Name" type="text" bind:value={input} {disabled} />
-     <button type="submit">Click Me!</button>
- 
-     {#if disabled}
-       <p>Fetching data from the IC...</p>
-     {:else}
-       <section id="greeting">
-         {greeting}
-       </section>
-     {/if}
+   <form>
+     <label for="name">Say hello to: </label>
+     <input id="name" alt="Name" type="text" bind:value={input}/>
+     <button type="button" on:click={handleOnSubmit}>Click Me!</button>
+
+     <div id="greeting">
+      {greeting}
+     </div>
    </form>
  </div>
+
+ <style>
+    #greeting {
+      margin-top: 20px;
+      height: 50px;
+      font-size: 1.5em;
+      border: 1px solid black;
+      display: flex;
+      align-items: center;
+      justify-content: center; 
+    }
+ </style>
