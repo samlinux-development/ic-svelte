@@ -2,7 +2,7 @@
 
 This template is intended to make it easier for you to get started with development with the Internet Computer, Svelte, TypeScript and Vite.
 
-Check package.json for used versions.
+The main goal is to demonstrate how a Svelte component can access a Motoko backend function on the Internet Computer. Check package.json for used versions.
 
 To clone and use the Github repository for your own purpose following the commands below. 
 
