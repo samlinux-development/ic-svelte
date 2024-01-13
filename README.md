@@ -12,10 +12,11 @@ To clone and use the Github repository for your own purpose following the comman
 npm install -g degit
 ```
 Summary of installation steps:
-1. Install and discuss the github repository
-2. Start a local Internet Computer replica
-3. Deploy frontend and backend canister to local replica
-4. Test the Motoko backend sayHelloTo function
+1. Check needed tools
+2. Install and discuss the github repository
+3. Start a local Internet Computer replica
+4. Deploy frontend and backend canister to local replica
+5. Test the Motoko backend sayHelloTo function
 
 
 ```bash
