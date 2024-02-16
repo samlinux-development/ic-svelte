@@ -6,8 +6,6 @@
 
 This project is provided by the [IC-Academy](https://blog.icacademy.at) to help you get started with development on the Internet Computer using Svelte, TypeScript and Vite.
 
-This template is intended to make it easier for you to get started with development on the Internet Computer using Svelte, TypeScript and Vite.
-
 The main goal of this repository is to demonstrate how different Svelte components can access separate Motoko backend functions on the Internet Computer.
 
 The project has the following main features:
