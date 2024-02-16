@@ -4,7 +4,7 @@
 
 # Internet Computer + Svelte + TS + Vite
 
-This temple is provided by the [IC-Academy](https://blog.icacademy.at) to help you get started with development on the Internet Computer using Svelte, TypeScript and Vite.
+This project is provided by the [IC-Academy](https://blog.icacademy.at) to help you get started with development on the Internet Computer using Svelte, TypeScript and Vite.
 
 This template is intended to make it easier for you to get started with development on the Internet Computer using Svelte, TypeScript and Vite.
 
