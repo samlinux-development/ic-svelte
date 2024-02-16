@@ -1,3 +1,4 @@
 service : {
+  calc: (nat, nat) -> (nat) query;
   sayHelloTo: (text) -> (text) query;
 }
