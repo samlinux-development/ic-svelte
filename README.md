@@ -19,6 +19,8 @@ To clone and use the Github repository for your own purpose following the comman
 
 **Note** to get a clean git repository. A tool called “digit” is used. Make sure you have it installed. If you haven't installed it yet, you can do so using the following command.
 
+> Tested on DFX version: 0.19.0
+
 ```bash
 npm install -g degit
 ```
