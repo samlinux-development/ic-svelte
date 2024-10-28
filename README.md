@@ -2,7 +2,7 @@
   <img width="240"  src="public/icAcademy.png">
 </p>
 
-# Internet Computer + Svelte + TS + Vite
+# Internet Computer + Svelte 5 + TS + Vite
 
 This project is provided by the [IC-Academy](https://blog.icacademy.at) to help you get started with development on the Internet Computer using Svelte, TypeScript and Vite.
 
@@ -17,7 +17,7 @@ To clone and use the Github repository for your own purpose following the comman
 
 **Note** to get a clean git repository. A tool called “digit” is used. Make sure you have it installed. If you haven't installed it yet, you can do so using the following command.
 
-> Tested on DFX version: 0.19.0
+> Tested on DFX version: 0.22.0
 
 ```bash
 npm install -g degit
