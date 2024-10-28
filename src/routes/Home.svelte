@@ -1,7 +1,7 @@
 <script lang="ts">
   import { ic } from '../store/ic';
   const about = "call sayHelloTo function";
-  let input = '', greeting = '';
+  let input = $state(''), greeting = $state('');
 
   const clickMe = async () => {
     try {
@@ -22,7 +22,7 @@
    <form>
      <label for="name">Say hello to: </label>
      <input id="name" alt="Name" type="text" bind:value={input}/>
-     <button type="button" on:click={clickMe}>Click Me!</button>
+     <button type="button" onclick={clickMe}>Click Me!</button>
    </form>
  
  <div class="result">
